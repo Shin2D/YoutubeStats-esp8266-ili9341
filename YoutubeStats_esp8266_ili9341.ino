@@ -27,10 +27,10 @@
 // MOSI to 13
 
 //------- Replace the following! ------
-char ssid[] = "GadgetsWare HQ";       // your network SSID (name)
-char password[] = "itsmeShin2D";  // your network key
-#define API_KEY "AIzaSyCpDqjeA31ylK6ZFd6Dv_ayQK31vztFJU8"  // your google apps API Token
-#define CHANNEL_ID "UCD_PGgSTkNIFIZBlI6WU8eA" // makes up the url of channel
+char ssid[] = "SSIDname";       // your network SSID (name)
+char password[] = "SSIDpassword";  // your network key
+#define API_KEY "YourAPIkey"  // your google apps API Token
+#define CHANNEL_ID "YourChannelID" // makes up the url of channel
 //--------------------------------------
 
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC, TFT_RESET);
